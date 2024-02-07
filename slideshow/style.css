@@ -1,0 +1,38 @@
+main {
+    margin: 0 auto;
+    width: 256px;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.imageContainer {
+    display: flex;
+    gap: 8px;
+}
+
+.imageContainer img {
+    cursor: pointer;
+    opacity: .4;
+}
+
+.imageContainer img.active {
+    opacity: 1;
+}
+
+button {
+    all: unset;
+    width: 124px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 16px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}   
+
